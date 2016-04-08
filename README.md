@@ -1,11 +1,13 @@
 # Sublime Mib Edit
 
 A Sublime Text 3 extension for snmp MIB Schemas.
+
 这是一个编写snmp mib文件的插件，用于Sublime Text 2/3。
 
 ## Features
 
 This plug-in can automatically complement a MIB file syntax of keywords, and defines some new subject, make different types of keyword appears as a different color.
+
 这个插件可以自动补全MIB文件语法中的关键字，并且定义了一些新的主题，使不同类型的关键字显示为不同的颜色。
 
 ## Install
