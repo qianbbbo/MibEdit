@@ -1,0 +1,19 @@
+%YAML 1.2
+---
+name: MIB
+file_extensions: [my, mib]
+scope: source.mib
+
+contexts:
+  main:
+    - match: \b(DEFINITIONS|BEGIN|IMPORTS|FROM|OBJECT-TYPE|OBJECT|IDENTIFIER|MODULE-IDENTITY|SYNTAX|ACCESS|STATUS|DESCRIPTION)\b
+      scope: keyword.control.mib
+
+    - match: --.*
+      scope: comment
+
+    - match: \b\d+\b
+      scope: constant.numeric
+
+    - match: \b(Counter32|Gauge32|IpAddress|Unsigned32|DisplayString|read-only|current)\b
+      scope: string

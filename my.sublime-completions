@@ -1,0 +1,26 @@
+{
+   "scope": ["text.mib - string - meta.tag, punctuation.definition.tag.begin"],
+
+   "completions":
+   [
+     { "trigger": "DEFINITIONS", "contents": "DEFINITIONS" },
+     { "trigger": "BEGIN", "contents": "BEGIN" },
+     { "trigger": "IMPORTS", "contents": "IMPORTS" },
+     { "trigger": "FROM", "contents": "FROM" },
+     { "trigger": "OBJECT", "contents": "OBJECT" },
+     { "trigger": "OBJECT-TYPE", "contents": "OBJECT-TYPE" },
+     { "trigger": "IDENTIFIER", "contents": "IDENTIFIER" },
+     { "trigger": "MODULE-IDENTITY", "contents": "MODULE-IDENTITY" },
+     { "trigger": "SYNTAX", "contents": "SYNTAX" },
+     { "trigger": "ACCESS", "contents": "ACCESS" },
+     { "trigger": "STATUS", "contents": "STATUS" },
+     { "trigger": "DESCRIPTION", "contents": "DESCRIPTION" },
+     { "trigger": "Counter32", "contents": "Counter32" },
+     { "trigger": "Gauge32", "contents": "Gauge32" },
+     { "trigger": "IpAddress", "contents": "IpAddress" },
+     { "trigger": "Unsigned32", "contents": "Unsigned32" },
+     { "trigger": "DisplayString", "contents": "DisplayString" },
+     { "trigger": "read-only", "contents": "read-only" },
+     { "trigger": "current", "contents": "current" }
+   ]
+}

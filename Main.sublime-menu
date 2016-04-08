@@ -1,0 +1,66 @@
+[
+	{
+		"caption": "Preferences",
+		"id": "preferences",
+		"children":
+		[
+			{
+				"caption": "Package Settings",
+				"id": "package-settings",
+				"children":
+				[
+					{
+						"caption": "MibEdit",
+						"children":
+						[
+							{
+								"caption": "Settings – Default",
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/MibEdit/Preferences.sublime-settings"
+								}
+							},
+							{
+								"caption": "Settings – User",
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/User/MibEdit.sublime-settings"
+								}
+							},
+							{ "caption": "-" },
+							{
+								"caption": "Mib tmTheme",
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/MibEdit/my.tmTheme"
+								}
+							},
+							{
+								"caption": "Mib Syntax",
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/MibEdit/my.sublime-syntax"
+								}
+							},
+							{
+								"caption": "Mib Completions",
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/MibEdit/my.sublime-completions"
+								}
+							},
+							{ "caption": "-" },
+							{
+								"caption": "README.md",
+								"command": "open_file",
+								"args": {
+									"file": "${packages}/MibEdit/README.md"
+								}
+							}
+						]
+					}
+				]
+			}
+		]
+	}
+]
