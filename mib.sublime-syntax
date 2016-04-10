@@ -10,10 +10,10 @@ contexts:
       scope: keyword.control.mib
 
     - match: --.*
-      scope: comment
+      scope: keyword.mib.comment
 
     - match: \b\d+\b
       scope: constant.numeric
 
     - match: \b(Counter32|Gauge32|IpAddress|Unsigned32|DisplayString|read-only|current)\b
-      scope: string
+      scope: keyword.mib.string

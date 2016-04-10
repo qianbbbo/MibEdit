@@ -11,7 +11,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment, meta.documentation</string>
+			<string>keyword.mib.comment, keyword.mib.meta.documentation</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -22,7 +22,7 @@
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string</string>
+			<string>keyword.mib.string</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -33,7 +33,7 @@
 			<key>name</key>
 			<string>Regexp</string>
 			<key>scope</key>
-			<string>string.regexp</string>
+			<string>keyword.mib.string.regexp</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -44,7 +44,7 @@
 			<key>name</key>
 			<string>Number</string>
 			<key>scope</key>
-			<string>constant.numeric</string>
+			<string>keyword.mib.constant.numeric</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -55,7 +55,7 @@
 			<key>name</key>
 			<string>Escape \ char</string>
 			<key>scope</key>
-			<string>constant.character.escape</string>
+			<string>keyword.mib.constant.character.escape</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
